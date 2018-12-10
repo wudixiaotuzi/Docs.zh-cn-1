@@ -51,7 +51,7 @@ Visual Studio 刚刚创建的 ASP.NET MVC 项目使用默认模板，因此您�
 
 ![](getting-started/_static/image4.png)
 
-按 **F5** 启动调试。 当您按下**F5**，启动 Visual Studio [IIS Express](/iis/extensions/introduction-to-iis-express/iis-express-overview)并运行 web 应用程序。 然后，visual Studio 启动浏览器并打开应用程序的主页。 请注意，在浏览器地址栏将显示`localhost:port#`并不是类似于`example.com`。 这是因为`localhost`始终指向自己在这种情况下运行应用程序刚生成的本地计算机。 Visual Studio 运行时 web 项目，一个随机端口用于 web 服务器。 下图中的端口号是 1234年。 当您运行该应用程序时，您将看到不同的端口号。
+按 **F5** 启动调试。 当您按下**F5**，启动 Visual Studio [IIS Express](/iis/extensions/introduction-to-iis-express/iis-express-overview)并运行 web 应用程序。 然后，visual Studio 启动浏览器并打开应用程序的主页。 请注意，在浏览器地址栏将显示`localhost:port#`并不是类似于`example.com`。 这是因为`localhost`始终指向自己在这种情况下运行应用程序刚生成的本地计算机。 Visual Studio 运行时 web 项目，一个随机端口用于 web 服务器。 下图中的端口号是 1234。 当您运行该应用程序时，您将看到不同的端口号。
 
 ![](getting-started/_static/image5.png)
 
