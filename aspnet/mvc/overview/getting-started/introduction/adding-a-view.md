@@ -116,7 +116,7 @@ ms.locfileid: "48578225"
 
 目前，`Welcome`操作方法中的`HelloWorldController`类采用`name`和一个`numTimes`参数，然后输出直接向浏览器的值。 而不是使控制器将作为一个字符串，此响应呈现，让我们更改控制器以改为使用视图模板。 视图模板将生成动态响应，这意味着你需要将适当的数据位从控制器传递给视图以生成响应。 可以为此，需要查看模板的动态数据 （参数） 放置在控制器`ViewBag`视图模板稍后可以访问的对象。
 
-返回到*HelloWorldController.cs*文件，并更改`Welcome`方法以添加`Message`并`NumTimes`值设为`ViewBag`对象。 `ViewBag` 是一个动态对象，这意味着您可以随意设置其中;`ViewBag`对象具有定义的属性，直到你将内容放在它。 [ASP.NET MVC 模型绑定系统](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx)会自动将映射命名的参数 (`name`和`numTimes`) 从方法中的参数到地址栏中的查询字符串。 完整的 HelloWorldController.cs 文件如下所示：
+返回到*HelloWorldController.cs*文件，并更改`Welcome`方法以添加`Message`并`NumTimes`值设为`ViewBag`对象。 `ViewBag` 是一个动态对象，这意味着您可以将任何你想放的东西放在里面;在您将一些内容放入其中之前，`ViewBag`对象没有已定义的属性。[ASP.NET MVC 模型绑定系统](http://odetocode.com/Blogs/scott/archive/2009/04/27/6-tips-for-asp-net-mvc-model-binding.aspx)会自动将映射命名的参数 (`name`和`numTimes`) 从方法中的参数到地址栏中的查询字符串。 完整的 HelloWorldController.cs 文件如下所示：
 
 [!code-csharp[Main](adding-a-view/samples/sample8.cs)]
 
