@@ -100,7 +100,7 @@ URL 的第一个部分确定要执行的控制器类。 因此 */HelloWorld*映�
 
 [!code-csharp[Main](adding-a-controller/samples/sample5.cs?highlight=7)]
 
-在 ASP.NET MVC 应用程序，它是更常见的做法在作为路由数据 （例如，我们使用上述 ID 所做的那样） 比将其作为查询字符串中传递的参数中传递。 您还可以添加一个路由，同时传递`name`和`numtimes`参数作为 URL 中的路由数据中。 在中*应用程序\_Start\RouteConfig.cs*文件中，添加"Hello"路由：
+在 ASP.NET MVC 应用程序，它是更常见的做法在作为路由数据 （例如，我们使用上述 ID 所做的那样） 比将其作为查询字符串中传递的参数中传递。 您还可以添加一个路由，同时传递`name`和`numtimes`参数作为 URL 中的路由数据中。 在*应用程序\_Start\RouteConfig.cs*文件中，添加"Hello"路由：
 
 [!code-csharp[Main](adding-a-controller/samples/sample6.cs?highlight=13-16)]
 
