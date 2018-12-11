@@ -27,13 +27,13 @@ ms.locfileid: "48578271"
 
 ## <a name="adding-model-classes"></a>添加模型类
 
-在中**解决方案资源管理器**，右键单击 *模型* 文件夹，选择**添加**，然后选择**类**。
+在**解决方案资源管理器**中，右键单击 *模型* 文件夹，选择**添加**，然后选择**类**。
 
 ![](adding-a-model/_static/image1.png)
 
-输入*类*名称&quot;电影&quot;。
+输入*类*名称&quot;Movie&quot;。
 
-添加到以下五个属性`Movie`类：
+将以下五个属性添加到`Movie`类：
 
 [!code-csharp[Main](adding-a-model/samples/sample1.cs)]
 
