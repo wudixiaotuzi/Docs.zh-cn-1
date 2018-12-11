@@ -41,10 +41,10 @@ ms.locfileid: "48576269"
   
 ![](accessing-your-models-data-from-a-controller/_static/image3.png)   
 
-单击 **添加**。 （如果遇到错误，您可能不生成应用程序开始将控制器添加之前。）Visual Studio 将创建以下文件和文件夹：
+单击 **添加**。 （如果遇到错误，您可能在添加控制器之前没有生成应用程序。）Visual Studio 将创建以下文件和文件夹：
 
 - *MoviesController.cs*文件中*控制器*文件夹。
-- 一个*视图 \ 电影*文件夹。
+- 一个*Views \ Movies*文件夹。
 - *Create.cshtml、 Delete.cshtml、 Details.cshtml、 Edit.cshtml*，并*Index.cshtml*中的新*视图 \ 电影*文件夹。
 
 自动创建 visual Studio [CRUD](http://en.wikipedia.org/wiki/Create,_read,_update_and_delete) （创建、 读取、 更新和删除） 操作方法和视图为您 （CRUD 操作方法和视图的自动创建被称为基架）。 现可完全正常运行的 web 应用程序，可用于创建、 列出、 编辑和删除的电影条目。
